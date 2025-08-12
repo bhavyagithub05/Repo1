@@ -32,7 +32,7 @@ const ReactElement = React.createElement(
     href: "www.google.com",
     target: "_blank"
   },
-  "click me to visit google.",
+  "click me to visit google",
   anotherUser
 )
 
