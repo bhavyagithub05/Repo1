@@ -1,7 +1,15 @@
+import Chai from './chai'
+
 function App() {
 
   return (
-    <h1>chai aur react | Bhavya jain</h1> 
+    <>
+      <Chai/>
+      <h1>my Name is Bhavya jain | hello world</h1>
+      <div>
+        Hello
+      </div>
+    </>
   )
 }
 
