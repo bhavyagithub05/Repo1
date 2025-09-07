@@ -10,6 +10,8 @@ function App() {
   const [convertedAmount, setConvertedAmount] = useState(0)
   const currencyInfo = useCurrencyInfo(from)
 
+  if(amount<0) {setAmount(0)} 
+  
   const options = Object.keys(currencyInfo)
   const swap = () => {
     setFrom(to)
